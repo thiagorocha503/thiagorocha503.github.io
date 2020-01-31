@@ -1,0 +1,22 @@
+.container{
+  //border: red 2px solid;
+  padding: 10%;
+  text-align: center;
+}
+
+.placa{
+  //border: green 2px solid;
+  text-align: center;
+  font-size: 150px;
+  
+}
+.text_placa{
+  //border: blue 2px solid;
+  text-align: center;
+  font-family: cursive;
+  color: gray;
+  font-size: 20px;
+}
+#progressbar{
+  //border:orange 2px solid;
+}

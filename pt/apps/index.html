@@ -1,16 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Thiago R. Ferreira - Apps</title>
     <meta name="description" content="Apps android do Thiago" />
-    <meta name="keywords" content="thiago rocha, apps, wind chill, json to csv, to do, notes, thiago rocha ferreira, thiagorocha503" />
+    <meta name="keywords"
+        content="thiago rocha, apps, wind chill, json to csv, to do, notes, thiago rocha ferreira, thiagorocha503" />
     <meta name="author" content="Thiago Rocha Ferreira" />
     <meta name="copyright" content="© Thiago Rocha Ferreira" />
     <meta name="robots" content="index,follow" />
-    <meta http-equiv="content-language" content="pt-br" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="rating" content="general" />
     <!-- favicons -->
@@ -18,25 +18,27 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../../images/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="192x192" href="../../images/favicons/favicon-192x192.png">
-    <link rel="icon" type="image/ico" href="../../favicon.ico"/>
+    <link rel="icon" type="image/ico" href="../../favicon.ico" />
     <!-- style -->
-    <link rel="stylesheet" href="../../lib/bootstrap-4.5.3.min.css">
+    <link rel="stylesheet" type="text/css" href="../../lib/bootstrap-4.5.3.min.css" />
     <link rel="stylesheet" href="../../css/apps.css">
-   
 </head>
 
 <body>
-    <div id="wrap">
-        <div id="main" class=" clear-top">
-            <nav class="navbar navbar-expand-sm  fixed-top navbar-dark bg-primary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="../../index.html">Thiago Rocha Ferreira</a>
-                    <ul class="navbar-nav">
+    <div id="container">
+        <div id="header">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+                <a class="navbar-brand" href="index.html">Thiago R. Ferreira</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                                 PT
                             </a>
-                            <div class="dropdown-menu">
+                            <div class="dropdown-menu dropdown-menu-right">
                                 <a class="dropdown-item" href="">PT</a>
                                 <a class="dropdown-item" href="../../en/apps/index.html">EN</a>
                             </div>
@@ -44,7 +46,9 @@
                     </ul>
                 </div>
             </nav>
-            <div class="container px-5 pt-5 mt-5 mb-5 d-flex justify-content-center">
+        </div>
+        <div id="body" class="pt-5"><br>
+            <div class="container pb-4 px-3 px-md-0">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
                     <div class="col">
                         <div class="card mb-3 card-h">
@@ -53,7 +57,8 @@
                             <div class="card-body">
                                 <h5 class="card-title">Conversor de JSON para CSV</h5>
                                 <p class="card-text">
-                                    Converta JSON em CSV de uma forma muito simples. O JSON de entrada que você pode digite, cole ou abra um arquivo JSON externo.
+                                    Converta JSON em CSV de uma forma simples e rápida. O JSON de entrada que você pode
+                                    digite, cole ou abra um arquivo JSON externo.
                                 </p>
                                 <a target="_blank" rel="noopener noreferrer"
                                     href="https://play.google.com/store/apps/details?id=io.github.thiagorocha503.json_to_csv"
@@ -67,7 +72,8 @@
                                 alt="wind chill graphic resource">
                             <div class="card-body">
                                 <h5 class="card-title">Calculadora de índice de resfriamento</h5>
-                                <p class="card-text">Calcule de forma simples e rápida o índice de resfriamento no sistema métrico e inglês.</p>
+                                <p class="card-text">Calcule de forma simples e rápida o índice de resfriamento no
+                                    sistema métrico e inglês.</p>
                                 <a target="_blank" rel="noopener noreferrer"
                                     href="https://play.google.com/store/apps/details?id=io.github.thiagorocha503.wind_chill_app"
                                     class="btn btn-primary">Instalar</a>
@@ -103,18 +109,22 @@
                 </div>
             </div>
         </div>
+        <footer id="footer" class="text-center d-flex justify-content-center flex-wrap">
+            <div class="align-self-center d-flex">
+                &copy;<span id="copyright-year"></span> &nbsp;Thiago Rocha Ferreira -
+            </div>
+            <div class="align-self-center d-flex">
+                &nbsp;Todos os direitos reservados
+            </div>
+        </footer>
     </div>
-    <footer class="footer text-center">
-        &copy;<span id="copyright-year"></span>Thiago Rocha Ferreira - Todo os direitos reservados.
-    </footer>
+    <script type="text/javascript" src="../../lib/jquery-3.5.1.slim.min.js"></script>
+    <script src="../../lib/popper-1.16.1.min.js"></script>
+    <script type="text/javascript" src="../../lib/bootstrap-4.5.3.min.js"></script>
     <script>
         let copyrightYear = document.getElementById("copyright-year");
         copyrightYear.innerHTML = new Date().getFullYear() + " ";
     </script>
-    <script src="../../lib/jquery-3.5.1.slim.min.js"></script>
-    <script src="../../lib/popper-1.16.1.min.js"></script>
-    <script src="../../lib/bootstrap-4.5.3.min.js"></script>
-
 </body>
 
 </html>

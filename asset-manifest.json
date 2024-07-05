@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/thiagorocha503.github.io/static/css/main.bd121e68.css",
+    "main.js": "/thiagorocha503.github.io/static/js/main.e847be5d.js",
+    "static/js/453.7ac39562.chunk.js": "/thiagorocha503.github.io/static/js/453.7ac39562.chunk.js",
+    "index.html": "/thiagorocha503.github.io/index.html",
+    "main.bd121e68.css.map": "/thiagorocha503.github.io/static/css/main.bd121e68.css.map",
+    "main.e847be5d.js.map": "/thiagorocha503.github.io/static/js/main.e847be5d.js.map",
+    "453.7ac39562.chunk.js.map": "/thiagorocha503.github.io/static/js/453.7ac39562.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd121e68.css",
+    "static/js/main.e847be5d.js"
+  ]
+}

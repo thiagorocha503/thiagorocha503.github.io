@@ -1,6 +1,5 @@
 import Nav from "react-bootstrap/Nav";
 import {
-    CONTACT_EMAIL,
     FACEBOOK_URL,
     GITHUB_URL,
     INSTAGRAM_URL,
@@ -24,14 +23,6 @@ export default function Footer() {
                     <li className="me-3">
                         <Nav.Link href={INSTAGRAM_URL} target="_blank">
                             <i className="fa-brands fa-instagram fa-xl"></i>
-                        </Nav.Link>
-                    </li>
-                    <li className="me-3">
-                        <Nav.Link
-                            title="send email"
-                            href={`mailto:${CONTACT_EMAIL}`}
-                        >
-                            <i className="fa-solid fa-envelope fa-lg"></i>
                         </Nav.Link>
                     </li>
                 </ul>

@@ -19,7 +19,7 @@
     "react-scripts": "5.0.1",
     "typescript": "^5.7.2",
     "web-vitals": "^4.2.3",
-    "yup": "^1.4.0"
+    "yup": "^1.6.1"
   },
   "scripts": {
     "predeploy": "npm run build",
